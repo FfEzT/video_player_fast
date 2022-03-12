@@ -1,0 +1,23 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 1vh;
+    padding: 0;
+}
+
+body {
+    background-color: #130F26;
+    display: grid;
+    justify-items: center;
+}
+
+div {
+    display: inline-block;
+    color: #A7C5EB
+}
+
+video {
+    width: max(
+        500px,
+        min(133.33vh, 75vw)
+    );
+}
